@@ -1,0 +1,133 @@
+2021-Sep-20 14:03:08 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2021-Sep-20 14:03:08 Обязательные параметры PHP (check_php_settings): Fail
+Ошибка! Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
+2021-Sep-20 14:03:08 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2021-Sep-20 14:03:08 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2021-Sep-20 14:03:09 Сохранение сессии (check_session): Ok
+50% done
+2021-Sep-20 14:03:09 Сохранение сессии (check_session): Ok
+Успешно
+2021-Sep-20 14:03:09 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2021-Sep-20 14:03:09 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2021-Sep-20 14:03:09 Работа с сокетами (check_socket): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:09 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2021-Sep-20 14:03:10 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2021-Sep-20 14:03:10 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:10 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:11 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:11 Настройки сайтов (check_sites): Ok
+Правильные
+2021-Sep-20 14:03:11 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2021-Sep-20 14:03:11 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:11 Загрузка файла (check_upload): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:12 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:12 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:12 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:15 Отправка почты (check_mail): Fail
+Ошибка! Отправлено. Время отправки: 3.13 сек.
+2021-Sep-20 14:03:16 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2021-Sep-20 14:03:16 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2021-Sep-20 14:03:16 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:16 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:16 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:16 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:17 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:17 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to localhost:80	Success
+
+2021-Sep-20 14:03:17 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to localhost:80	Success
+
+Не менее 256 М
+2021-Sep-20 14:03:17 Работа с файлами кеша (check_cache): Ok
+Успешно
+2021-Sep-20 14:03:18 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2021-Sep-20 14:03:18 HTTP авторизация (check_http_auth): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:19 Создание и запуск файла (check_exec): Ok
+Connection to localhost:80	Success
+
+Успешно
+2021-Sep-20 14:03:19 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2021-Sep-20 14:03:19 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2021-Sep-20 14:03:20 Время на БД и веб-сервере (check_mysql_time): Fail
+Ошибка! Время отличается на 14400 секунд
+2021-Sep-20 14:03:20 Режим работы MySQL (check_mysql_mode): Fail
+Ошибка! innodb_strict_mode=ON, требуется OFF
+2021-Sep-20 14:03:20 Кодировка соединения (check_mysql_connection_charset): Fail
+character_set_connection=utf8mb3, collation_connection=utf8_unicode_ci, character_set_results=utf8mb3
+Ошибка! Кодировка соединения с базой данных должна быть utf8, текущее значение: utf8mb3
+2021-Sep-20 14:03:20 Кодировка базы данных (check_mysql_db_charset): Warning
+Замечание. Не удалось проверить из-за ошибки кодировки соединения
+2021-Sep-20 14:03:20 Кодировки таблиц в БД (check_mysql_table_charset): Warning
+Замечание. Не удалось проверить из-за ошибки кодировки соединения
+2021-Sep-20 14:03:23 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2021-Sep-20 14:03:24 Структура базы данных (check_mysql_table_structure): Ok
+4% done
+2021-Sep-20 14:03:45 Структура базы данных (check_mysql_table_structure): Ok
+8% done
+2021-Sep-20 14:03:55 Структура базы данных (check_mysql_table_structure): Ok
+12% done
+2021-Sep-20 14:04:04 Структура базы данных (check_mysql_table_structure): Ok
+16% done
+2021-Sep-20 14:04:24 Структура базы данных (check_mysql_table_structure): Ok
+20% done
